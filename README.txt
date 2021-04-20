@@ -1,34 +1,45 @@
-Simplified keypoint dataset for yoga pose classification
-K. Ehinger
-Created for COMP30027 Machine Learning, sem 1, 2021, The University of Melbourne
+Hi! Welcome to my COMP30027, Assignment 1 Submission
+In order to run the code contained here, you will need to install the following
+programs/python packages:
 
-Images: Yoga Pose Classification dataset
-https://www.amarchenkova.com/2018/12/04/data-set-convolutional-neural-network-yoga-pose/
+1. Python 3
+2. Jupyter Notebook
+3. Pandas and all it's dependencies (see https://pandas.pydata.org/)
+4. SciPy
+5. MatPlotLib
 
-Column ids:
-0. class
-1. x1 (head)
-2. x2 (shoulders)
-3. x3 (elbowR)
-4. x4 (wristR)
-5. x5 (elbowL)
-6. x6 (wristL)
-7. x7 (hips)
-8. x8 (kneeR)
-9. x9 (footR)
-10. x10 (kneeL)
-11. x11 (footL)
-12. y1 (head)
-13. y2 (shoulders)
-14. y3 (elbowR)
-15. y4 (wristR)
-16. y5 (elbowL)
-17. y6 (wristL)
-18. y7 (hips)
-19. y8 (kneeR)
-20. y9 (footR)
-21. y10 (kneeL)
-22. y11 (footL)
+Report.pdf contains the report for the assignment.
+Code.ipynb contains all the relevant code for the work done. It can be opened
+through Jupyter Notebook and is structured as followed:
 
-Missing values:
-9999 = missing keypoint
+TITLE / Author
+-> General Setup
+    - preprocess()
+    - predict_set()
+
+-> Part 1: Gaussian Naive Bayes Classifier
+    - train()
+    - predict()
+    - get_name()
+
+-> Part 2: KDE Naive Bayes Classifier (Question 3)
+    - train()
+    - predict()
+    
+-> Part 3: Evaluating the models
+    - Baseline classifiers
+    - Confusion Matrices
+    - Multiclass Evaluation Methods (Question 1)
+    - Evaluate()
+    - Graphing results()
+
+-> Part 4: Tests / running the models
+
+The code should run as long as all other contents of the zip file are extracted 
+into the same directory.
+
+Markdown cells have been included to help you navigate through the code,
+however some code blocks are quite large so make sure you read the relevant
+markdown cell before diving in to avoid any confusion.
+En
+- Cal
